@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <script src="pay_rules.js"></script>
+    <style>
+        body {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+        }
+
+        section {
+            background-color: rgb(233, 233, 233);
+            margin-top: 20em;
+            padding: 1em;
+            border: 2px solid black;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h3>Enter Hours</h3>
+        <input id="hours" type="hours"><br>
+        <button style="margin-top: 1em;" onclick="payrate()">Enter</button>
+    
+        <h5 id="output1"></h5>
+        <h5 id="output2"></h5>
+        <h5 id="output3"></h5>
+    </section>
+
+
+    
+</body>
+</html>
